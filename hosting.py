@@ -947,6 +947,21 @@ def start_bot():
             time.sleep(5)
 
 # Main execution
+from flask import Flask
+import threading
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot Running 24/7 ✅"
+
+def run_web():
+    app.run(host="0.0.0.0", port=10000)
+
+# Run both bot + web together
 if __name__ == "__main__":
-    logger.info("Starting 24x7 TEAM X HOSTING BOT...")
-    start_bot()
+    t1 = threading.Thread(target=start_bot)
+    t1.start()
+    
+    run_web()
