@@ -14,7 +14,7 @@ BOT_ENABLED = True
 # Allowed group IDs and their remaining limits
 ALLOWED_GROUPS = {
     -1003948351370: {"name": "Main Group", "remain": 100, "initial_remain": 100},
-    -1003847529783: {"name": "Friend Group", "remain": 50, "initial_remain": 50},
+    -1003948351370: {"name": "Friend Group", "remain": 50, "initial_remain": 50},
 }
 
 # Admin user IDs
