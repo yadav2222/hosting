@@ -2,3 +2,5 @@ flask
 pyTelegramBotAPI
 requests
 psutil
+aiohttp
+pytz
