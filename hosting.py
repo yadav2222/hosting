@@ -460,11 +460,11 @@ def start_handler(message):
 
 @bot.message_handler(func=lambda m: m.text == "📢 Updates Channel")
 def updates_handler(message):
-    bot.send_message(message.chat.id, "📢 Join our channel: https://t.me/TEAM_X_LEGACY")
+    bot.send_message(message.chat.id, "📢 Join our channel: COMMING SOON ")
 
 @bot.message_handler(func=lambda m: m.text == "📞 Contact Owner")
 def contact_handler(message):
-    bot.send_message(message.chat.id, "📞 Contact: @XAHAF_LEGACY")
+    bot.send_message(message.chat.id, "📞 Contact: @Notfoundbby")
 
 @bot.message_handler(func=lambda m: m.text == "⚡ Bot Speed")
 def speed_handler(message):
